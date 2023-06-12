@@ -33,6 +33,7 @@ h1 {
   opacity: 0.8;
   letter-spacing: 2px;
   font-size: 2.5rem;
+  padding-bottom: 20px;
 }
 
 .search {
@@ -67,6 +68,7 @@ h1 {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -79,4 +81,14 @@ h1 {
 
 .btn:focus {
   outline: 0;
+}
+
+.input {
+  font-size: 22px;
+  padding: 7px 7px;
+  border-radius: 7px;
+  color: #000;
+  border: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  outline: none;
 }

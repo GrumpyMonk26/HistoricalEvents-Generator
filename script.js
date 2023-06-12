@@ -35,6 +35,11 @@ const eventEl = document.getElementById('event');
 const yearEl = document.getElementById('year');
 const btnEl = document.getElementById('events-btn');
 const searchEl = document.getElementById('search');
+const searchBtn = document.getElementById('search-btn');
+
+searchBtn.addEventListener('click', () => {
+  console.log('clicked search btn');
+});
 
 async function getEvent() {
   // Generate a random index to select a random text from the list
