@@ -1,53 +1,19 @@
-const textList = [
-  'saxon',
-  'roman empire',
-  'American Revolution',
-  'French Revolution',
-  'American Civil War',
-  'World War I',
-  'World War II',
-  'Cold War',
-  'greek',
-  'Aztec',
-  'The Napoleonic Wars',
-  'african',
-  'british',
-  'polish',
-  'indian',
-  'asian',
-  'south american',
-  'mexican',
-  'german',
-  'russia',
-  'ussr',
-  'iran',
-];
-
-let randItem = Math.floor(Math.random() * textList.length);
-console.log(randItem);
-
-// Select the text using the random index
-const text = textList[randItem];
-
 const apiKey = 'mL25MGOW/xtCwpgr8GPLMA==7KNriaOkYcucfFuP';
 
 const eventEl = document.getElementById('event');
 const yearEl = document.getElementById('year');
 const btnEl = document.getElementById('events-btn');
 const searchEl = document.getElementById('search');
-const searchBtn = document.getElementById('search-btn');
-
-searchBtn.addEventListener('click', () => {
-  console.log('clicked search btn');
-});
+const inputEl = document.getElementById('input');
+let value;
 
 async function getEvent() {
-  // Generate a random index to select a random text from the list
-  let randItem = Math.floor(Math.random() * textList.length);
-  console.log(randItem);
+  value = inputEl.value;
+  console.log('clicked event btn');
+  console.log(value);
 
   // Select the text using the random index
-  const text = textList[randItem];
+  const text = value;
   console.log(text);
 
   try {
@@ -80,7 +46,7 @@ async function getEvent() {
     // Display the event and year in the UI
     searchEl.textContent = `- ${text}`;
     eventEl.textContent = result[randItem].event;
-    yearEl.textContent = result[randItem].year;
+    yearEl.textContent = `- ${result[randItem].year}`;
 
     console.log(result[randItem].event);
     console.log(result);

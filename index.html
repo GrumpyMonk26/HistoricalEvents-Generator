@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Chuck Jokes</title>
+    <title>Historical Events</title>
   </head>
   <body>
     <div class="container">
       <h1 class="heading">Historical Events</h1>
       <div class="search--container">
-        <input class="input" type="text" />
-        <button class="btn" id="search-btn">Search</button>
+        <input
+          class="input"
+          type="text"
+          id="input"
+          placeholder="Search Event"
+        />
+        <button id="events-btn" class="btn">Show Me An Event</button>
       </div>
-      <p class="search" id="search">- roman empire</p>
-      <p id="event" class="event">
-        The Julian calendar takes effect as the civil calendar of the Roman
-        Empire, establishing January 1 as the new date of the new year.
-      </p>
-      <p class="year">Year: <span id="year">-45</span></p>
-      <button id="events-btn" class="btn">Show Me An Event</button>
+      <p class="search" id="search"></p>
+      <p id="event" class="event"></p>
+      <p class="year" id="year"></p>
     </div>
     <script src="script.js"></script>
   </body>
