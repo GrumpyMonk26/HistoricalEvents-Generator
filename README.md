@@ -2,6 +2,8 @@
 
 ### Vanilla JavaScript project
 
+#### Project Description
+
 ##### The Historical Events API is a comprehensive and versatile platform that enables users to explore and search for famous events that have shaped the course of human history. This repository serves as a valuable resource for historians, researchers, educators, and enthusiasts alike, providing a vast collection of historical events spanning from ancient antiquity to modern times.
 
 ##### With the aim of preserving and presenting the rich tapestry of human civilization, the Historical Events API offers a user-friendly interface and a robust database that houses an extensive catalog of noteworthy events. Delve into the annals of time and uncover pivotal moments that have influenced societies, cultures, and the course of global development.
@@ -15,3 +17,5 @@
 ##### Whether you are a student seeking historical references for academic assignments, a writer researching a novel set in a specific era, or simply an individual with a passion for history, the Historical Events API is a powerful tool that brings the past to life. Explore the collective memory of humankind, uncover forgotten tales, and gain a deeper understanding of the events that have shaped our world.
 
 ##### Join the Historical Events API community today and embark on an enlightening journey through time, as you dive into the vibrant tapestry of human history.
+
+###### Live Preview - https://gm-historical-events.netlify.app/
